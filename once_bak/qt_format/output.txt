@@ -1,0 +1,36 @@
+#include <QApplication>
+#include <QWidget>
+#include <QPainter>
+#include <QMatrix>
+class PainterWidget : public QWidget {
+protected:
+void paintEvent(QPaintEvent*);
+};
+void PainterWidget::paintEvent(QPaintEvent *event) {
+QPainter painter(this);
+QFont font("times", 18, QFont::Bold);
+painter.setFont(font);
+painter.setPen(Qt::black);
+for (int i = 0; i < 36; i++) { // 進行 36 次旋轉
+QMatrix matrix;
+matrix.translate(250, 250); // 移動中心至 (250, 250)
+matrix.shear(0.0, 0.3); // 扭曲
+matrix.rotate((float) i * 10); // 每次旋轉 10 度
+painter.setWorldMatrix(matrix); // 使用這個 QMatrix
+QColor color;
+color.setHsv(i * 10, 255, 255); // 設定彩虹效果
+painter.setBrush(color); // 設定筆刷顏色
+painter.drawRect(70, -10, 80, 10); // 畫矩形
+QString str;
+str.sprintf("H=%d", i*10);
+painter.drawText(80 + 70 + 5, 0, str); // 繪製角度文字
+}
+}
+int main(int argc, char *argv[]) {
+QApplication app(argc, argv);
+PainterWidget pWidget;
+pWidget.setWindowTitle("QMatrix");
+pWidget.resize(500, 500);
+pWidget.show();
+return app.exec();
+}

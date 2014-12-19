@@ -1,0 +1,38 @@
+#尝试使用perl LWP访问百度文档，自动评分获取金币
+第一步：保持登陆状态
+1)正常登陆百度，提交成功，返回js跳转页面，难以继续……
+2)尝试传递自动登陆参数		成功！
+
+第二步：分析文档列表，获取文档hash值
+
+第三步：提交评分数据		成功！
+
+评论返回状态码的含义
+status:
+0,提交成功
+6,重复评论
+
+
+=to test
+？ua设置的默认header是否可被request->header对象覆盖
+？baidu不同页面，自动登陆信息是否相同
+
+
+=bak
+my $header = HTTP::Headers->new(
+        'Referer' => 'http://wenku.baidu.com/view/'. $fileHash .'.html',
+        'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+        'X-Request-By' => 'baidu.ajax',
+        'Cookie' => 'BAIDUID=196E66811A0D51FABBFB193B520F0A9C:FG=1; USERID=4042d84ed805c40a49b05dfab9; J_MY=0; BDUSS=1WTE95Rlg3RGVnTXZPVDh2Rm9FWHpYQ0pKME5uZ2lmQ1JvTHl3eVpYODlsUGxNQVFBQUFBJCQAAAAAAAAAAAokNyl~ne8AUWRsYWRvb29vAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAymV7AAAAAMDKZXsAAAAAuFNCAAAAAAAxMC42NS4yND0H0kw9B9JMVW; bannerindex=1',
+        'Pragma' => 'no-cache',
+        'Cache-Control' => 'no-cache'
+    );
+
+#2011年2月15日17:13:22，补充
+大约两个月之前，baidu自动登录也开始采用js跳转机制，所以该脚本已经失效了
+有闲的话，思考新方案。
+
+#2011年2月18日16:39:37
+我真傻！看出了问题，一时没有头绪就下判断。解析不到是因为我请求了gzip数据，返回的数据又没有解压步骤。
+请求正常数据就可以识别了。
+造成这个错误的原因，是我的错误提示过于武断，也蒙蔽了我自己。“something may be wrong, check the cookie you sent”是不合适的

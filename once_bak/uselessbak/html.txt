@@ -1,0 +1,579 @@
+<div style="font-size: 15px; font-weight: bold;">主要城市</div>
+		<option value="110000">北京</option>
+		<option value="310000">上海</option>
+		<option value="440300">深圳</option>
+		<option value="440100">广州</option>
+		<option value="120000">天津</option>
+		<option value="500000">重庆</option>
+		<option value="441900">东莞</option>
+		<option value="320100">南京</option>
+		<option value="320500">苏州</option>
+		<option value="330100">杭州</option>
+		<option value="330200">宁波</option>
+		<option value="510100">成都</option>
+		<option value="350100">福州</option>
+		<option value="370100">济南</option>
+		<option value="370200">青岛</option>
+		<option value="340100">合肥</option>
+		<option value="410100">郑州</option>
+		<option value="420100">武汉</option>
+		<option value="430100">长沙</option>
+		<option value="610100">西安</option>
+		<option value="210100">沈阳</option>
+		<option value="210200">大连</option>
+		<option value="230100">哈尔滨</option>
+		<option value="220100">长春</option>
+		<option value="530100">昆明</option>
+<div style="font-size: 15px; font-weight: bold;">A-安徽省</div>
+		<option value="340000">安徽省</option>
+                <option value="340100">合肥</option>
+                <option value="340200">芜湖</option>
+                <option value="340300">蚌埠</option>
+                <option value="340400">淮南</option>
+                <option value="340500">马鞍山</option>
+                <option value="340600">淮北</option>
+                <option value="340700">铜陵</option>
+                <option value="340800">安庆</option>
+                <option value="341000">黄山</option>
+                <option value="341100">滁州</option>
+                <option value="341200">阜阳</option>
+                <option value="341300">宿州</option>
+                <option value="341400">巢湖</option>
+                <option value="341500">六安</option>
+                <option value="341600">亳州</option>
+                <option value="341700">池州</option>
+                <option value="341800">宣城</option>
+<div style="font-size: 15px; font-weight: bold;">B-北京</div>
+		<option value="110000">北京</option>
+                <option value="110100">东城区</option>
+                <option value="110200">西城区</option>
+                <option value="110300">崇文区</option>
+                <option value="110400">宣武区</option>
+                <option value="110500">朝阳区</option>
+                <option value="110600">丰台区</option>
+                <option value="110700">石景山区</option>
+                <option value="110800">海淀区</option>
+                <option value="110900">门头沟区</option>
+                <option value="111100">房山区</option>
+                <option value="111200">通州区</option>
+                <option value="111300">顺义区</option>
+                <option value="111400">昌平区</option>
+                <option value="111500">大兴区</option>
+                <option value="111600">怀柔区</option>
+                <option value="111700">平谷区</option>
+                <option value="112800">密云县</option>
+                <option value="112900">延庆县</option>
+<div style="font-size: 15px; font-weight: bold;">F-福建省</div>
+                <option value="350000">福建省</option>
+                <option value="350100">福州</option>
+                <option value="350200">厦门</option>
+                <option value="350300">莆田</option>
+                <option value="350400">三明</option>
+                <option value="350500">泉州</option>
+                <option value="350600">漳州</option>
+                <option value="350700">南平</option>
+                <option value="350800">龙岩</option>
+                <option value="350900">宁德</option>
+<div style="font-size: 15px; font-weight: bold;">G-广东省</div>
+<option value="440000">广东省</option>
+                <option value="440100">广州</option>
+                <option value="440103">　　荔湾区</option>
+                <option value="440104">　　越秀区</option>
+                <option value="440105">　　海珠区</option>
+                <option value="440106">　　天河区</option>
+                <option value="440111">　　白云区</option>
+                <option value="440112">　　黄埔区</option>
+                <option value="440113">　　番禺区</option>
+                <option value="440114">　　花都区</option>
+                <option value="440115">　　南沙区</option>
+                <option value="440116">　　萝岗区</option>
+                <option value="440183">　　增城</option>
+                <option value="440184">　　从化</option>
+                <option value="440300">深圳</option>
+                <option value="440303">　　罗湖区</option>
+                <option value="440304">　　福田区</option>
+                <option value="440305">　　南山区</option>
+                <option value="440306">　　宝安区</option>
+                <option value="440307">　　龙岗区</option>
+                <option value="440308">　　盐田区</option>
+                <option value="440600">佛山</option>
+                <option value="440606">顺德</option>
+                <option value="440700">江门</option>
+                <option value="440783">开平</option>
+                <option value="440200">韶关</option>
+                <option value="440400">珠海</option>
+                <option value="440500">汕头</option>
+                <option value="440800">湛江</option>
+                <option value="440900">茂名</option>
+                <option value="441200">肇庆</option>
+                <option value="441300">惠州</option>
+                <option value="441400">梅州</option>
+                <option value="441500">汕尾</option>
+                <option value="441600">河源</option>
+                <option value="441700">阳江</option>
+                <option value="441800">清远</option>
+                <option value="441900">东莞</option>
+                <option value="442000">中山</option>
+                <option value="445100">潮州</option>
+                <option value="445200">揭阳</option>
+                <option value="445300">云浮</option>
+<div style="font-size: 15px; font-weight: bold;">G-贵州省</div>
+                <option value="520000">贵州省</option>
+                <option value="520100">贵阳</option>
+                <option value="520200">六盘水</option>
+                <option value="520300">遵义</option>
+                <option value="520400">安顺</option>
+                <option value="522200">铜仁</option>
+                <option value="522300">黔西南</option>
+                <option value="522400">毕节</option>
+                <option value="522600">黔东南</option>
+                <option value="522700">黔南</option>
+<div style="font-size: 15px; font-weight: bold;">G-广西</div>
+                <option value="450000">广西</option>
+                <option value="450100">南宁</option>
+                <option value="450200">柳州</option>
+                <option value="450300">桂林</option>
+                <option value="450400">梧州</option>
+                <option value="450500">北海</option>
+                <option value="450600">防城港</option>
+                <option value="450700">钦州</option>
+                <option value="450800">贵港</option>
+                <option value="450900">玉林</option>
+                <option value="451000">百色</option>
+                <option value="451100">贺州</option>
+                <option value="451200">河池</option>
+                <option value="451300">来宾</option>
+                <option value="451400">崇左</option>
+<div style="font-size: 15px; font-weight: bold;">G-甘肃省</div>
+                <option value="620000">甘肃省</option>
+                <option value="620100">兰州</option>
+                <option value="620200">嘉峪关</option>
+                <option value="620300">金昌</option>
+                <option value="620400">白银</option>
+                <option value="620500">天水</option>
+                <option value="620600">武威</option>
+                <option value="620700">张掖</option>
+                <option value="620800">平凉</option>
+                <option value="620900">酒泉</option>
+                <option value="621000">庆阳</option>
+                <option value="621100">定西</option>
+                <option value="621200">陇南</option>
+                <option value="622900">临夏</option>
+                <option value="623000">甘南</option>
+<div style="font-size: 15px; font-weight: bold;">H-河南省</div>
+                <option value="410000">河南省</option>
+                <option value="410100">郑州</option>
+                <option value="410200">开封</option>
+                <option value="410300">洛阳</option>
+                <option value="410400">平顶山</option>
+                <option value="410500">安阳</option>
+                <option value="410600">鹤壁</option>
+                <option value="410700">新乡</option>
+                <option value="410800">焦作</option>
+                <option value="410900">濮阳</option>
+                <option value="411000">许昌</option>
+                <option value="411100">漯河</option>
+                <option value="411200">三门峡</option>
+                <option value="411300">南阳</option>
+                <option value="411400">商丘</option>
+                <option value="411500">信阳</option>
+                <option value="411600">周口</option>
+                <option value="411700">驻马店</option>
+                <option value="419001">济源</option>
+<div style="font-size: 15px; font-weight: bold;">H-河北省</div>
+                <option value="130000">河北省</option>
+                <option value="130100">石家庄</option>
+                <option value="130200">唐山</option>
+                <option value="130300">秦皇岛</option>
+                <option value="130400">邯郸</option>
+                <option value="130500">邢台</option>
+                <option value="130600">保定</option>
+                <option value="130700">张家口</option>
+                <option value="130800">承德</option>
+                <option value="130900">沧州</option>
+                <option value="131000">廊坊</option>
+                <option value="131100">衡水</option>
+<div style="font-size: 15px; font-weight: bold;">H-湖北省</div>
+                <option value="420000">湖北省</option>
+                <option value="420100">武汉</option>
+                <option value="420200">黄石</option>
+                <option value="420300">十堰</option>
+                <option value="420500">宜昌</option>
+                <option value="420600">襄樊</option>
+                <option value="420700">鄂州</option>
+                <option value="420800">荆门</option>
+                <option value="420900">孝感</option>
+                <option value="421000">荆州</option>
+                <option value="421100">黄冈</option>
+                <option value="421200">咸宁</option>
+                <option value="421300">随州</option>
+                <option value="422800">恩施</option>
+                <option value="429100">仙桃</option>
+                <option value="429200">潜江</option>
+                <option value="429300">天门</option>
+                <option value="429400">神农架</option>
+<div style="font-size: 15px; font-weight: bold;">H-湖南省</div>
+                <option value="430000">湖南省</option>
+                <option value="430100">长沙</option>
+                <option value="430200">株洲</option>
+                <option value="430300">湘潭</option>
+                <option value="430400">衡阳</option>
+                <option value="430500">邵阳</option>
+                <option value="430600">岳阳</option>
+                <option value="430700">常德</option>
+                <option value="430800">张家界</option>
+                <option value="430900">益阳</option>
+                <option value="431000">郴州</option>
+                <option value="431100">永州</option>
+                <option value="431200">怀化</option>
+                <option value="431300">娄底</option>
+                <option value="433100">湘西</option>
+<div style="font-size: 15px; font-weight: bold;">H-黑龙江省</div>
+                <option value="230000">黑龙江省</option>
+                <option value="230100">哈尔滨</option>
+                <option value="230200">齐齐哈尔</option>
+                <option value="230300">鸡西</option>
+                <option value="230400">鹤岗</option>
+                <option value="230500">双鸭山</option>
+                <option value="230600">大庆</option>
+                <option value="230700">伊春</option>
+                <option value="230800">佳木斯</option>
+                <option value="230900">七台河</option>
+                <option value="231000">牡丹江</option>
+                <option value="231100">黑河</option>
+                <option value="231200">绥化</option>
+                <option value="232700">大兴安岭</option>
+<div style="font-size: 15px; font-weight: bold;">H-海南省</div>
+                <option value="460000">海南省</option>
+                <option value="460100">海口</option>
+                <option value="460200">三亚</option>
+                <option value="469100">五指山</option>
+                <option value="469200">琼海</option>
+                <option value="469300">儋州</option>
+                <option value="469400">文昌</option>
+                <option value="469500">万宁</option>
+                <option value="469600">东方</option>
+                <option value="469700">洋浦经济开发区</option>
+<div style="font-size: 15px; font-weight: bold;">J-江苏省</div>
+                <option value="320000">江苏省</option>
+                <option value="320100">南京</option>
+                <option value="320200">无锡</option>
+                <option value="329100">江阴</option>
+                <option value="329200">宜兴</option>
+                <option value="320300">徐州</option>
+                <option value="320400">常州</option>
+                <option value="329900">溧阳</option>
+                <option value="320500">苏州</option>
+                <option value="329300">常熟</option>
+                <option value="329400">张家港</option>
+                <option value="329500">昆山</option>
+                <option value="329600">吴江</option>
+                <option value="329700">太仓</option>
+                <option value="320600">南通</option>
+                <option value="320700">连云港</option>
+                <option value="320800">淮安</option>
+                <option value="320900">盐城</option>
+                <option value="321000">扬州</option>
+                <option value="321100">镇江</option>
+                <option value="329800">丹阳</option>
+                <option value="321200">泰州</option>
+                <option value="328100">靖江</option>
+                <option value="328200">泰兴</option>
+                <option value="321300">宿迁</option>
+<div style="font-size: 15px; font-weight: bold;">J-江西省</div>
+                <option value="360000">江西省</option>
+                <option value="360100">南昌</option>
+                <option value="360200">景德镇</option>
+                <option value="360300">萍乡</option>
+                <option value="360400">九江</option>
+                <option value="360500">新余</option>
+                <option value="360600">鹰潭</option>
+                <option value="360700">赣州</option>
+                <option value="360800">吉安</option>
+                <option value="360900">宜春</option>
+                <option value="361000">抚州</option>
+                <option value="361100">上饶</option>
+<div style="font-size: 15px; font-weight: bold;">L-吉林省</div>
+                <option value="220000">吉林省</option>
+                <option value="220100">长春</option>
+                <option value="220200">吉林</option>
+                <option value="220300">四平</option>
+                <option value="220400">辽源</option>
+                <option value="220500">通化</option>
+                <option value="220600">白山</option>
+                <option value="220700">松原</option>
+                <option value="220800">白城</option>
+                <option value="222400">延边</option>
+                <option value="229100">延吉</option>
+<div style="font-size: 15px; font-weight: bold;">L-辽宁省</div>
+                <option value="210000">辽宁省</option>
+                <option value="210100">沈阳</option>
+                <option value="210200">大连</option>
+                <option value="210300">鞍山</option>
+                <option value="210400">抚顺</option>
+                <option value="210500">本溪</option>
+                <option value="210600">丹东</option>
+                <option value="210700">锦州</option>
+                <option value="210800">营口</option>
+                <option value="210900">阜新</option>
+                <option value="211000">辽阳</option>
+                <option value="211100">盘锦</option>
+                <option value="211200">铁岭</option>
+                <option value="211300">朝阳</option>
+                <option value="211400">葫芦岛</option>
+<div style="font-size: 15px; font-weight: bold;">N-宁夏</div>
+                <option value="640000">宁夏</option>
+                <option value="640100">银川</option>
+                <option value="640200">石嘴山</option>
+                <option value="640300">吴忠</option>
+                <option value="640400">固原</option>
+                <option value="640500">中卫</option>
+<div style="font-size: 15px; font-weight: bold;">N-内蒙古</div>
+                <option value="150000">内蒙古</option>
+                <option value="150100">呼和浩特</option>
+                <option value="150200">包头</option>
+                <option value="150300">乌海</option>
+                <option value="150400">赤峰</option>
+                <option value="150500">通辽</option>
+                <option value="150600">鄂尔多斯</option>
+                <option value="150700">呼伦贝尔</option>
+                <option value="150800">巴彦淖尔</option>
+                <option value="150900">乌兰察布</option>
+                <option value="152200">兴安盟</option>
+                <option value="152500">锡林郭勒盟</option>
+                <option value="152900">阿拉善盟</option>
+<div style="font-size: 15px; font-weight: bold;">Q-青海省</div>
+                <option value="630000">青海省</option>
+                <option value="630100">西宁</option>
+                <option value="632100">海东</option>
+                <option value="632200">海北</option>
+                <option value="632300">黄南</option>
+                <option value="632500">海南</option>
+                <option value="632600">果洛</option>
+                <option value="632700">玉树</option>
+                <option value="632800">海西</option>
+<div style="font-size: 15px; font-weight: bold;">S-上海</div>
+                <option value="310000">上海</option>
+                <option value="310100">黄浦区</option>
+                <option value="310300">卢湾区</option>
+                <option value="310400">徐汇区</option>
+                <option value="310500">长宁区</option>
+                <option value="310600">静安区</option>
+                <option value="310700">普陀区</option>
+                <option value="310800">闸北区</option>
+                <option value="310900">虹口区</option>
+                <option value="311000">杨浦区</option>
+                <option value="311200">闵行区</option>
+                <option value="311300">宝山区</option>
+                <option value="311400">嘉定区</option>
+                <option value="311500">浦东新区</option>
+                <option value="311600">金山区</option>
+                <option value="311700">松江区</option>
+                <option value="311800">青浦区</option>
+                <option value="312000">奉贤区</option>
+                <option value="313000">崇明县</option>
+<div style="font-size: 15px; font-weight: bold;">S-山东省</div>
+                <option value="370000">山东省</option>
+                <option value="370100">济南</option>
+                <option value="370200">青岛</option>
+                <option value="370300">淄博</option>
+                <option value="370400">枣庄</option>
+                <option value="370500">东营</option>
+               <option value="370600">烟台</option>
+                <option value="370700">潍坊</option>
+                <option value="370800">济宁</option>
+                <option value="370900">泰安</option>
+                <option value="371000">威海</option>
+                <option value="371100">日照</option>
+                <option value="371200">莱芜</option>
+                <option value="371300">临沂</option>
+                <option value="371400">德州</option>
+                <option value="371500">聊城</option>
+                <option value="371600">滨州</option>
+                <option value="371700">菏泽</option>
+<div style="font-size: 15px; font-weight: bold;">S-四川省</div>
+                <option value="510000">四川省</option>
+                <option value="510100">成都</option>
+                <option value="510300">自贡</option>
+                <option value="510400">攀枝花</option>
+                <option value="510500">泸州</option>
+                <option value="510600">德阳</option>
+                <option value="510700">绵阳</option>
+                <option value="510800">广元</option>
+                <option value="510900">遂宁</option>
+                <option value="511000">内江</option>
+                <option value="511100">乐山</option>
+                <option value="511300">南充</option>
+                <option value="511400">眉山</option>
+                <option value="511500">宜宾</option>
+                <option value="511600">广安</option>
+                <option value="511700">达州</option>
+                <option value="511800">雅安</option>
+                <option value="511900">巴中</option>
+                <option value="512000">资阳</option>
+                <option value="513200">阿坝</option>
+                <option value="513300">甘孜</option>
+                <option value="513400">凉山</option>
+                <option value="519100">西昌</option>
+<div style="font-size: 15px; font-weight: bold;">S-陕西省</div>
+                <option value="610000">陕西省</option>
+                <option value="610100">西安</option>
+                <option value="610200">铜川</option>
+                <option value="610300">宝鸡</option>
+                <option value="610400">咸阳</option>
+                <option value="619100">杨凌</option>
+                <option value="610500">渭南</option>
+                <option value="610600">延安</option>
+                <option value="610700">汉中</option>
+                <option value="610800">榆林</option>
+                <option value="610900">安康</option>
+                <option value="611000">商洛</option>
+<div style="font-size: 15px; font-weight: bold;">S-山西省</div>
+                <option value="140000">山西省</option>
+
+                <option value="140100">太原</option>
+
+                <option value="140200">大同</option>
+
+                <option value="140300">阳泉</option>
+
+                <option value="140400">长治</option>
+
+                <option value="140500">晋城</option>
+
+                <option value="140600">朔州</option>
+
+                <option value="140700">晋中</option>
+
+                <option value="140800">运城</option>
+
+                <option value="140900">忻州</option>
+
+                <option value="141000">临汾</option>
+
+                <option value="141100">吕梁</option>
+<div style="font-size: 15px; font-weight: bold;">X-西藏</div>
+                <option value="540000">西藏</option>
+
+                <option value="540100">拉萨</option>
+
+                <option value="542100">昌都</option>
+
+                <option value="542200">山南</option>
+
+                <option value="542300">日喀则</option>
+
+                <option value="542400">那曲</option>
+
+                <option value="542500">阿里</option>
+
+                <option value="542600">林芝</option>
+<div style="font-size: 15px; font-weight: bold;">X-新疆</div>
+<option value="650000">新疆</option>
+
+                <option value="650100">乌鲁木齐</option>
+
+                <option value="650200">克拉玛依</option>
+
+                <option value="652100">吐鲁番</option>
+
+                <option value="652200">哈密</option>
+
+                <option value="652300">昌吉</option>
+
+                <option value="652700">博尔塔拉</option>
+
+                <option value="652800">巴音郭楞</option>
+
+                <option value="652900">阿克苏</option>
+
+                <option value="653000">克孜勒苏柯尔克孜</option>
+
+                <option value="653100">喀什地区</option>
+
+                <option value="653200">和田</option>
+
+                <option value="654000">伊犁</option>
+
+                <option value="654200">塔城</option>
+
+                <option value="654300">阿勒泰</option>
+
+                <option value="659001">石河子</option>
+
+                <option value="659002">阿拉尔</option>
+
+                <option value="659003">图木舒克</option>
+
+                <option value="659004">五家渠</option>
+<div style="font-size: 15px; font-weight: bold;">Y-云南省</div>
+<option value="530000">云南省</option>
+
+                <option value="530100">昆明</option>
+
+                <option value="530300">曲靖</option>
+
+                <option value="530400">玉溪</option>
+
+                <option value="530500">保山</option>
+
+                <option value="530600">昭通</option>
+
+                <option value="530700">丽江</option>
+
+                <option value="530800">普洱</option>
+
+                <option value="530900">临沧</option>
+
+                <option value="532300">楚雄</option>
+
+                <option value="532500">红河州</option>
+
+                <option value="532600">文山</option>
+
+                <option value="532800">西双版纳</option>
+
+                <option value="532900">大理</option>
+
+                <option value="533100">德宏</option>
+
+                <option value="533300">怒江</option>
+
+                <option value="533400">迪庆</option>
+<div style="font-size: 15px; font-weight: bold;">Z-浙江省</div>
+		<option value="330000">浙江省</option>
+
+                <option value="330100">杭州</option>
+
+                <option value="339100">萧山</option>
+
+                <option value="330200">宁波</option>
+
+                <option value="339200">慈溪</option>
+
+                <option value="330300">温州</option>
+
+                <option value="330400">嘉兴</option>
+
+                <option value="339300">海宁</option>
+
+                <option value="330500">湖州</option>
+
+                <option value="330600">绍兴</option>
+
+                <option value="330700">金华</option>
+
+                <option value="339400">义乌</option>
+
+                <option value="330800">衢州</option>
+
+                <option value="330900">舟山</option>
+
+                <option value="331000">台州</option>
+
+                <option value="331100">丽水</option>
+<div style="font-size: 15px; font-weight: bold;">其它地区</div>
+	<option value="830000">台湾</option>
+	<option value="810000">香港</option>
+	<option value="820000">澳门</option>
+	<option value="900000">国外</option>
