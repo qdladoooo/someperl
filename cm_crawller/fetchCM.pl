@@ -31,7 +31,7 @@ sub fetchCM {
 
     #小区信息存入文件
     open FILE, '>>output';
-    print FILE "#####PAGE${page}\n";    
+    print FILE "#####PAGE${page}\n";
 
     $flag = 1;
     foreach my $cm_info (@cm_list) {
