@@ -72,9 +72,9 @@ sub get_dbh
     #my $pw = config->mysql_pw();
 
     my $host = '127.0.0.1';
-    my $user = 'dlad';
-    my $pw = '123456';
-    my $dbh = DBI->connect("DBI:mysql:database=yr_match;host=$host", "$user", "$pw", {"RaiseError"=>1});
+    my $user = 'root';
+    my $pw = '5533';
+    my $dbh = DBI->connect("DBI:mysql:database=purple;host=$host", "$user", "$pw", {"RaiseError"=>1});
     $dbh->do("set names utf8");
 
     return $dbh;
