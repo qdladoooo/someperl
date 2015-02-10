@@ -1,30 +1,25 @@
 #!/usr/bin/perl -w
 use DBI;
 use utils;
+use URI::Escape;
 
 my $dbh = utils->get_dbh();
 
-open FH, '<cm_location.txt';
+open FH, '<./data/addr_location.txt';
 
 
 my @cm_list;
 my $i = 1;
 while(<FH>) {
     chomp;
-    $line = $_;
-    $line =~ m/(\d+####)?(.+)$/;
-    next if($line eq '');
+    $_ =~ m/str=(.*)$/;
+    my $line = uri_unescape($1);
+    
+    my @ar = split(',,,', $line);
+    $sql = "insert into purple.map_final (id, name, lng, lat, address) values('${ar[0]}', '${ar[1]}', '${ar[3]}', '${ar[4]}', '${ar[5]}')";
+    #print $sql . "\n";
+    $dbh->do( $sql );
 
-    my @ar = split('####', $2);
-
-    if ($ar[1] =~ m/^F/) {
-
-    } else {
-    	#print $ar[0] . "\t" . $ar[2] . "\t" . $ar[3] . "\n";
-        $sql = "insert into purple.communtity (id, name, lng, lat) values('', '${ar[0]}', '${ar[2]}', '${ar[3]}')";
-        print $sql . "\n";
-
-    }
 }
 
 close FH;
